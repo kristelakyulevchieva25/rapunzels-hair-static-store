@@ -1,0 +1,152 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    padding: 0;
+    background-color: #fff8fc;
+    color: #333333;
+}
+header {
+    text-align: center;
+    background-color: #f8d7e6;
+    padding: 30px 20px;
+}
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    margin: 0;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+.product-card {
+    background-color: #ffffff;
+    width: 250px;
+    border: 1px solid #f0c9da;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+}
+.product-card:hover {
+    background-color: #fff0f6;
+}
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.price {
+    font-weight: bold;
+    color: #b03060;
+}
+.product-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #d96c9d;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.product-card a:hover {
+    background-color: #b84f80;
+}
+.product-card h2 {
+    font-size: 1.2rem;
+}
+.product-card p {
+    line-height: 1.4;
+}
+.product-page {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.product-details,
+.purchase-form,
+.reviews,
+.review-form {
+    background-color: #ffffff;
+    border: 1px solid #f0c9da;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.product-details img {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+}
+
+.product-details h2,
+.purchase-form h3,
+.reviews h3,
+.review-form h3 {
+    margin-top: 0;
+    color: #b03060;
+}
+
+.purchase-form label,
+.review-form label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #b03060;
+}
+
+.purchase-form input,
+.review-form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid #d9b6c7;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.purchase-form button,
+.review-form button {
+    padding: 10px 16px;
+    background-color: #d96c9d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.purchase-form button:hover,
+.review-form button:hover {
+    background-color: #b84f80;
+}
+
+.review {
+    background-color: #fff8fc;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.product-page a {
+    color: #b03060;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.product-page a:hover {
+    text-decoration: underline;
+}
